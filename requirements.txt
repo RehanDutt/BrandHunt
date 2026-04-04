@@ -1,0 +1,20 @@
+# Web Framework & UI
+streamlit
+fastapi
+uvicorn
+
+# Intelligence & Scraping
+requests
+beautifulsoup4
+python-dotenv
+anthropic
+
+# Data & Excel Export
+pandas
+xlsxwriter
+pydantic
+sqlalchemy
+
+# Utilities
+dnspython
+phonenumbers

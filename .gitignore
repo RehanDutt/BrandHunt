@@ -1,0 +1,14 @@
+# Secrets (CRITICAL)
+.env
+
+# Python junk (Removes those messy folders)
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+
+# Streamlit & Data
+.streamlit/
+*.xlsx
+*.csv

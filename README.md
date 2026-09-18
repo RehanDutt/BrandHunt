@@ -73,36 +73,6 @@ Known and unfixed. Read before relying on output.
 ├── run.py
 ├── streamlit_app.py
 └── requirements.txt
-```
-
-## Setup
-
-Requires Python 3.9+ and free-tier API keys from [Serper.dev](https://serper.dev) and [Hunter.io](https://hunter.io).
-
-```bash
-git clone https://github.com/RehanDutt/BrandHunt.git
-cd BrandHunt
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-Create a `.env` file in the project root:
-
-```
-SERPER_API_KEY=your_serper_key_here
-HUNTER_API_KEY=your_hunter_key_here
-```
-
-Keys are read from the environment and are never committed. `.env` is gitignored.
-
-### Run
-
-```bash
-streamlit run streamlit_app.py
-```
-
-Then open the local URL Streamlit prints, usually `http://localhost:8501`.
 
 ## Usage
 
